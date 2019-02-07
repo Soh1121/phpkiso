@@ -6,10 +6,14 @@
 </head>
 <body>
 <?php
-$nickname=$_POST['nickname'];
-print 'ようこそ';
-print $nickname;
-print '様';
+$nickname = $_POST['nickname'];
+if($nickname == ''){
+  print 'ニックネームが入力されていません。';
+} else {
+  print 'ようこそ';
+  print $nickname;
+  print '様';
+}
 ?>
 </body>
 </html>
