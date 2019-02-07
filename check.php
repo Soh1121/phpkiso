@@ -35,7 +35,9 @@ if($goiken == ''){
   print '』<br />';
 }
 
-print '<a href="index.html">戻る</a>';
+print '<form>';
+print '<input type="button" onclick="history.back()" value="戻る">';
+print '</form>';
 ?>
 </body>
 </html>
