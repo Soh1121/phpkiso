@@ -7,6 +7,8 @@
 <body>
 <?php
 print 'ようこそ';
+print $_POST['nickname'];
+print '様';
 ?>
 </body>
 </html>
