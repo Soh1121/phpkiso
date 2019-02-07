@@ -35,6 +35,7 @@ if($goiken == ''){
   print '』<br />';
 }
 
+print '<a href="index.html">戻る</a>';
 ?>
 </body>
 </html>
