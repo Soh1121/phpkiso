@@ -41,6 +41,9 @@ if($nickname=='' || $email=='' || $goiken==''){
   print '</form>';
 } else {
   print '<form method="post" action="thanks.php">';
+  print '<input name="nickname" type="hidden" value="'.$nickname.'">';
+  print '<input name="email" type="hidden" value="'.$email.'">';
+  print '<input name="goiken" type="hidden" value="'.$goiken.'">';
   print '<input type="button" onclick="history.back()" value="戻る">';
   print '<input type="submit" value="OK">';
   print '</form>';
