@@ -6,6 +6,7 @@
 |- .htaccess
 |- check.php
 |- hina.html
+|- index.html
 |- konichiwa.html
 |- sample.jpg
 `- wellcome.html
