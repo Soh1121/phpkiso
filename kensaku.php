@@ -15,9 +15,10 @@ $password = 'root';
 $dbh = new PDO($dsn, $user, $password);
 $dbh->query('SET NAMES utf8');
 
-$sql = 'SELECT * FROM anketo WHERE code='.$code;
+$sql = 'SELECT * FROM anketo WHERE code=?';
 $stmt = $dbh->prepare($sql);
-$stmt->execute();
+$data[]=$code;
+$stmt->execute($data);
 
 while(1)
 {
