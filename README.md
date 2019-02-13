@@ -4,10 +4,15 @@
 ```
 ./phpkiso
 |- .htaccess
+|- README.md
 |- check.php
 |- hina.html
+|- ichiran.php
 |- index.html
+|- kensaku.html
+|- kensaku.php
 |- konichiwa.html
 |- sample.jpg
+|- thanks.php
 `- wellcome.html
 ```

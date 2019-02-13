@@ -34,5 +34,7 @@ while(1)
 $dbh = null;
 ?>
 
+<br />
+<a href="menu.html">メニューに戻る</a><br />
 </body>
 </html>
